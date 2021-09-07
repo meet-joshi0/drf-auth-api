@@ -1,4 +1,4 @@
-### user registration and login api using django rest framework
+#user registration and login api using django rest framework
 
 ## Installation
 
@@ -15,13 +15,13 @@ python3 mabage.py runserver
 ## Usage Instruction
 
 
-To Register new account use  ``` api/register/ ``` endpoint 
-To obtain access token use ```api/token/``` endpoint 
-To Refresh expired token use ```api/token/refresh/``` endpoint
+To Register new account use  ``` api/register/ ``` endpoint <br/>
+To obtain access token use ```api/token/``` endpoint <br/>
+To Refresh expired token use ```api/token/refresh/``` endpoint <br/>
 
  
 ## Additional Information
-.django rest natively support session and basic auth but jwt is used in support of scalability and self contained aspect.
+django rest natively support session and basic auth but jwt is used in support of scalability and self contained aspect.
 
 Default expire time for token is 30 minutes which can be changed from settings. token can be manually expired by using blacklisted app, available with jwt package.
 
